@@ -1,0 +1,69 @@
+{
+    "name": "sikessem/package",
+    "description": "Create a new SIKessEm Package",
+    "homepage": "https://packagist.com/packages/sikessem",
+    "license": "MIT",
+    "keywords": [
+		"sikessem",
+	  	"package",
+	  	"repository-template"
+    ],
+  	"authors": [{
+		"name": "SIGUI Kessé Emmanuel",
+		"homepage": "https://sikessem.com",
+		"email": "ske@sikessem.com",
+		"role": "Developer"
+  	}],
+    "support": {
+        "docs": "https://sikessem.github.io/packages",
+        "source": "https://github.com/sikessem/packages",
+        "wiki": "https://github.com/sikessem/packages/wiki",
+        "issues": "https://github.com/sikessem/packages/issues",
+        "chat": "https://github.com/sikessem/packages/discussions"
+    },
+    "require": {
+        "php": "^8.0.24"
+    },
+    "require-dev": {
+        "php": "^8.1.11",
+        "laravel/pint": "^1.2",
+        "pestphp/pest": "^1.22",
+        "phpstan/phpstan": "^1.8",
+        "phpunit/phpunit": "^9.5.10",
+        "symfony/var-dumper": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sikessem\\Package\\": "src/"
+        },
+        "files": [
+            "inc/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "lint": "pint -v",
+        "test:lint": "pint --test -v",
+        "test:types": "phpstan analyse --ansi",
+        "test:unit": "pest --colors=always",
+        "test": [
+            "@test:lint",
+            "@test:types",
+            "@test:unit"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

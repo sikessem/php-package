@@ -1,0 +1,20 @@
+{
+  "name": "@sikessem/package",
+  "version": "0.0.0",
+  "description": "Create a new SIKessEm Package",
+  "homepage": "https://packagist.org/packages/sikessem",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sikessem/package.git"
+  },
+  "keywords": [
+	"sikessem",
+	"package",
+	"repository-template"
+  ],
+  "author": "SIGUI Kessé Emmanuel <ske@sikessem.com>",
+  "bugs": {
+    "url": "https://github.com/sikessem/packages/issues"
+  }
+}
