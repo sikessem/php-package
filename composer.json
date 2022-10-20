@@ -1,7 +1,7 @@
 {
     "name": "sikessem/package",
     "description": "Create a new SIKessEm Package",
-    "homepage": "https://packagist.com/packages/sikessem",
+    "homepage": "https://packagist.com/package/sikessem",
     "license": "MIT",
     "keywords": [
 		"sikessem",
@@ -15,11 +15,11 @@
 		"role": "Developer"
   	}],
     "support": {
-        "docs": "https://sikessem.github.io/packages",
-        "source": "https://github.com/sikessem/packages",
-        "wiki": "https://github.com/sikessem/packages/wiki",
-        "issues": "https://github.com/sikessem/packages/issues",
-        "chat": "https://github.com/sikessem/packages/discussions"
+        "docs": "https://sikessem.github.io/package",
+        "source": "https://github.com/sikessem/package",
+        "wiki": "https://github.com/sikessem/package/wiki",
+        "issues": "https://github.com/sikessem/package/issues",
+        "chat": "https://github.com/sikessem/package/discussions"
     },
     "require": {
         "php": "^8.0"
@@ -56,7 +56,7 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true,
+        "sort-package": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }

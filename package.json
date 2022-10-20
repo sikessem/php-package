@@ -1,5 +1,6 @@
 {
   "name": "@sikessem/package",
+  "packageManager": "yarn@1.22.19",
   "version": "0.0.0",
   "description": "Create a new SIKessEm Package",
   "homepage": "https://packagist.org/packages/sikessem",
@@ -15,6 +16,6 @@
   ],
   "author": "SIGUI Kessé Emmanuel <ske@sikessem.com>",
   "bugs": {
-    "url": "https://github.com/sikessem/packages/issues"
+    "url": "https://github.com/sikessem/package/issues"
   }
 }
