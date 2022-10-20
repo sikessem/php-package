@@ -35,10 +35,7 @@
     "autoload": {
         "psr-4": {
             "Sikessem\\Package\\": "src/"
-        },
-        "files": [
-            "inc/helpers.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
