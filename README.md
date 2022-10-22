@@ -3,8 +3,8 @@
     <p>
         <a href="https://github.com/sikessem/package/blob/HEAD/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SIKessEm Package is released under the MIT license."/></a>
         <a href="https://github.com/sikessem/package/actions"><img alt="GitHub Workflow Status (main)" src="https://img.shields.io/github/workflow/status/sikessem/package/Tests/main"/></a>
-        <a href="https://packagist.org/package/sikessem/package"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/sikessem/package"/></a>
-        <a href="https://packagist.org/package/sikessem/package"><img alt="Latest Version" src="https://img.shields.io/packagist/v/sikessem/package"/></a>
+        <a href="https://packagist.org/packages/sikessem/package"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/sikessem/package"/></a>
+        <a href="https://packagist.org/packages/sikessem/package"><img alt="Latest Version" src="https://img.shields.io/packagist/v/sikessem/package"/></a>
         <a href="https://sikessem.github.io/package/contributing"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!"/></a>
         <a href="https://twitter.com/intent/follow?screen_name=ske_sikessem"><img src="https://img.shields.io/twitter/follow/ske_sikessem.svg?label=Follow%20@ske_sikessem" alt="Follow @ske_sikessem"/></a>
     </p>

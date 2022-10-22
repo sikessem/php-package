@@ -1,7 +1,7 @@
 {
     "name": "sikessem/package",
     "description": "Create a new SIKessEm Package",
-    "homepage": "https://packagist.com/package/sikessem",
+    "homepage": "https://packagist.com/packages/sikessem",
     "license": "MIT",
     "keywords": [
 		"sikessem",
