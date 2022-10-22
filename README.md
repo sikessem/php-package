@@ -28,16 +28,39 @@ Create a template based on this repository to create your custom package.
 
 ## 🎉 Getting Started
 
-⚡️ Create your [Custom Package](https://github.com/sikessem/package) using [Composer](https://getcomposer.org/):
+### ⚡️ Installation
 
-- as template:
-```bash
-create-project sikessem/package --prefer-source package
+Install [Package](https://github.com/sikessem/package) using [Composer](https://getcomposer.org/):
+- By adding the `sikessem/package` dependency to your `composer.json` file:
+```json
+{
+  "require" : {
+    "sikessem/package": "^0.2"
+  },
+}
 ```
-- as dependency:
+- Or by including the dependency:
 ```bash
 composer require sikessem/package --no-dev
 ```
+- Or by creating a new project from the template:
+```bash
+create-project sikessem/package --prefer-source package
+```
+
+### 🧑‍💻 Usage
+
+```php
+<?php
+
+use Sikessem\Package\Hello;
+
+include_once __DIR__.'/autoload.php';
+
+echo Hello::toYou('SIKessEm').PHP_EOL;
+```
+
+### 🧪 Testing
 
 🧹 Keep a modern codebase with **Pint**:
 ```bash
@@ -91,4 +114,4 @@ The SIKessEm Package is open-sourced software licensed under the  [MIT License](
 
 ------
 
-This Package was created by [SIGUI Kessé Emmanuel](https://sikessem.com).
+Package was created by [SIGUI Kessé Emmanuel](https://sikessem.com).
