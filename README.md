@@ -12,7 +12,7 @@
 
 ***
 
-# Create a new SIKessEm Package
+# 📦️ Create a new SIKessEm Package
 
 Create a template based on this repository to create your custom package.
 
